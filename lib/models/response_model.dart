@@ -1,4 +1,4 @@
-class ResponseModel{
+class ResponseModel {
   final dynamic error;
   final dynamic data;
   final dynamic message;
@@ -6,8 +6,8 @@ class ResponseModel{
   ResponseModel({this.error, this.data, this.message});
 
   Map<String, dynamic> toJson() => {
-    "error": error ?? "",
-    "data": data ?? "",
-    "mesage": message ?? "",
-  };
+        "error": error ?? "",
+        "data": data ?? "",
+        "mesage": message ?? "",
+      };
 }
